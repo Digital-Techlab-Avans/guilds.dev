@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/js/:path*",
-        "destination": "https://guilds-dev-js.vercel.app/:path*"
+        "destination": "https://guilds-dev-js.vercel.app/js/:path*"
       }
     ]
   }
