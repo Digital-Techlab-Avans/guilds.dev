@@ -2,11 +2,11 @@
     "rewrites": [
       {
         "source": "/js",
-        "destination": "https://guilds-dev-js.vercel.app/js"
+        "destination": "https://guilds-dev-js.vercel.app/"
       },
       {
         "source": "/js/:path*",
-        "destination": "https://guilds-dev-js.vercel.app/js/:path*"
+        "destination": "https://guilds-dev-js.vercel.app/:path*"
       }
     ]
   }
