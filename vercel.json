@@ -1,12 +1,14 @@
 {
-    "rewrites": [
-      {
-        "source": "/js",
-        "destination": "https://guilds-dev-js.vercel.app/js"
-      },
-      {
-        "source": "/js/:path*",
-        "destination": "https://guilds-dev-js.vercel.app/js/:path*"
-      }
-    ]
-  }
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/js",
+      "destination": "https://guilds-dev-js.vercel.app"
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "https://guilds-dev-js.vercel.app/:path*"
+    }
+  ]
+}
