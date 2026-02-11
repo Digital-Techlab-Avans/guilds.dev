@@ -9,6 +9,22 @@
     {
       "source": "/js/:path*",
       "destination": "https://guilds-dev-js.vercel.app/:path*"
+    },
+    {
+      "source": "/cyber",
+      "destination": "https://guilds-dev-cyber.vercel.app"
+    },
+    {
+      "source": "/cyber/:path*",
+      "destination": "https://guilds-dev-cyber.vercel.app/:path*"
+    },
+    {
+      "source": "/ai",
+      "destination": "https://guilds-dev-ai.vercel.app"
+    },
+    {
+      "source": "/ai/:path*",
+      "destination": "https://guilds-dev-ai.vercel.app/:path*"
     }
   ]
 }
