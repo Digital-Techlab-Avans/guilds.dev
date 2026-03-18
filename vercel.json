@@ -12,11 +12,11 @@
     },
     {
       "source": "/cyber",
-      "destination": "https://guilds-dev-cyber.vercel.app"
+      "destination": "https://guilds-dev-cyber.vercel.app/cyber"
     },
     {
       "source": "/cyber/:path*",
-      "destination": "https://guilds-dev-cyber.vercel.app/:path*"
+      "destination": "https://guilds-dev-cyber.vercel.app/cyber/:path*"
     },
     {
       "source": "/ai",
