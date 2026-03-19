@@ -4,11 +4,11 @@
   "rewrites": [
     {
       "source": "/js",
-      "destination": "https://guilds-dev-js.vercel.app"
+      "destination": "https://guilds-dev-js.vercel.app/js"
     },
     {
       "source": "/js/:path*",
-      "destination": "https://guilds-dev-js.vercel.app/:path*"
+      "destination": "https://guilds-dev-js.vercel.app/js/:path*"
     },
     {
       "source": "/cyber",
@@ -20,11 +20,11 @@
     },
     {
       "source": "/ai",
-      "destination": "https://guilds-dev-ai.vercel.app"
+      "destination": "https://guilds-dev-ai.vercel.app/ai"
     },
     {
       "source": "/ai/:path*",
-      "destination": "https://guilds-dev-ai.vercel.app/:path*"
+      "destination": "https://guilds-dev-ai.vercel.app/ai/:path*"
     }
   ]
 }
